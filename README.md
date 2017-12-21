@@ -13,9 +13,7 @@ npm start
 ```
 
 ## TODO
-* spacers
-* containers
-* grid
+* buttons
 * forms
 * tables
 * documentation
