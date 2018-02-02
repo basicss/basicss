@@ -26,8 +26,8 @@
     "start": "npm-run-all build -p watch serve",
     "build:css": "stylus src/stylus/basic.styl -o css/basic.css && stylus -c src/stylus/basic.styl -o css/basic.min.css",
     "prefix:css": "postcss -u autoprefixer -r css/*.css",
-    "build": "npm-run-all build:css prefix:css",
-    "watch": "onchange 'src/stylus' -- npm run build",
+    "dist": "npm-run-all build:css prefix:css",
+    "watch": "onchange 'src/stylus' -- npm run build:css",
     "serve": "browser-sync start --server --files 'index.html' 'css/*.css'",
     "postinstall": "npm start"
   }
