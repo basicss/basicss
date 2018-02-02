@@ -13,8 +13,6 @@ npm start
 ```
 
 ## TODO
-* buttons
-* forms
 * tables
 * documentation
 * demo page
