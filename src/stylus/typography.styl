@@ -3,8 +3,13 @@
 //***********************
 
 body
+  @media screen and (max-width: lg)
+    padding-left spacer
+    padding-right spacer
   font-family font-family-base
-  font-size font-size-base
+  font-size font-size-sm
+  @media screen and (min-width: sm)
+    font-size font-size-base
   font-weight font-weight-base
   line-height line-height-base
   background-color background-color-base
@@ -26,7 +31,6 @@ h5
   font-size h5-font-size-sm
 h6
   font-size h6-font-size-sm
-
 
 @media screen and (min-width: sm)
   h1
